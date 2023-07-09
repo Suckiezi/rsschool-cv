@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(253, 188, 207);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    padding-right: 15px;
+    
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(65, 86, 155);
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+main {
+    display: block;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px 20px 30px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.section-title {
+    color: rgb(97, 80, 97);
+    margin: 20px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.contacts-item {
+    list-style-type: none;
+    color: rgb(80, 80, 80);
+}
+
+.contacts-item a {
+    color: p(80, 80, 80);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(80, 80, 80);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-container a {
+    color: (80, 80, 80);
+    transition: color 0.5s;
+}
+
+.rss {
+    display: flex;
+    width: 121px;
+    height: 45px;
+    background-image: url(./rs_school_js.svg);
+}
+
+.section {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+}
+
+footer {
+    background-color: rgb(253, 188, 207);
+    display: block;
+}
+
+.rss {
+    display: flex;
+    width: 121px;
+    height: 45px;
+    background-image: url(./rs_school_js.svg);
+}
